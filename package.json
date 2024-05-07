@@ -1,0 +1,33 @@
+{
+  "name": "unit-testing",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hroyero/Epam.git"
+  },
+  "author": "Hollmans R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hroyero/Epam/issues"
+  },
+  "homepage": "https://github.com/Hroyero/Epam#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "eslint": "^9.1.1"
+  },
+  "dependencies": {
+    "c8": "^9.1.0",
+    "chai": "^5.1.0",
+    "husky": "^9.0.11",
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3"
+  }
+}
