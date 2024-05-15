@@ -27,7 +27,7 @@ describe('isNumberEven positive test', () => {
 
   it('should return an array of even numbers', () => {
     const arrayOfNumbers = [1, 2, 3, 4, 5];
-    const arrayOfString = ["1", "2", "3", "4", "5"];
+    const arrayOfString = ["One", "Two", "Three", "Four", "Five"];
 
     expect(validator.getEvenNumbersFromArray(arrayOfNumbers)).to.include.members([2, 4]);
     expect(() => validator.getEvenNumbersFromArray(arrayOfString)).to.throw();
